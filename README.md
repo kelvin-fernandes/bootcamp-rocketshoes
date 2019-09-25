@@ -1,68 +1,93 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+<p align="center">
+  <h3 align="center">Rocketshoes</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    A shoes e-commerce builded to practice Redux concepts
+    <br />
+  </p>
+</p>
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   [About the Project](#about-the-project)
+    -   [Built With](#built-with)
+-   [Getting Started](#getting-started)
+    -   [Prerequisites](#prerequisites)
+    -   [Installation](#installation)
+-   [Usage](#usage)
+-   [Contact](#contact)
+-   [Acknowledgements](#acknowledgements)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+<img src="./assets/home.png">
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./assets/cart.png">
 
-### `npm run build`
+A shoes e-commerce, where there are a list of products at home page and you can add any product in your cart. So, after you have added all your choices in the cart, you go there and control the product quantity.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+-   [React](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+So, to get this project alive:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   [yarn](https://yarnpkg.com/en/docs/install)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Clone the repo
 
-## Learn More
+```sh
+$ git clone https://github.com/kelvin-fernandes/bootcamp-rocketshoes.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install all application dependencies.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+$ yarn
+```
 
-### Code Splitting
+## Usage
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Before you start the frontend, run this command to start a fake api
 
-### Analyzing the Bundle Size
+```sh
+$ json-server server.json -p 3333
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+And finally.
 
-### Making a Progressive Web App
+```sh
+$ yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Contact
 
-### Advanced Configuration
+Kelvin Fernandes - [@i4kelvin](https://instagram.com/i4mkelvin) - sokelvinfernandes@gmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Project Link: [https://github.com/kelvin-fernandes/bootcamp-rocketshoes](https://github.com/kelvin-fernandes/bootcamp-rocketshoes)
 
-### Deployment
+## Acknowledgements
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+-   [Axios](github.com/axios/axios/) - Promise based HTTP client
+-   [History](https://github.com/ReactTraining/history) - Manage session history with JavaScript
+-   [Immer](https://github.com/immerjs/immer) - Create the next immutable state
+-   [Polished](https://github.com/styled-components/polished) - A lightweight toolset for writing styles in JavaScript
+-   [React Icons](https://github.com/react-icons/react-icons) - svg react icons of popular icon packs
+-   [Redux](https://redux.js.org/) - A predictable state container for JavaScript apps
+-   [React Toastify](https://github.com/fkhadra/react-toastify) - React notification made easy
+-   [Redux Saga](https://redux-saga.js.org/) - Make application side effects easier to manage
+-   [Prop Types](https://github.com/facebook/prop-types) - Runtime type checking for React props and similar objects
+-   [Styled Components](https://github.com/styled-components/styled-components) - Visual primitives for the component age
+-   [ESLint](eslint.org) - Linting utility for JavaScript
+-   [Prettier](prettier.io) - Code formatter
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=1178B3
+[linkedin-url]: https://linkedin.com/in/kelvin-fernandes

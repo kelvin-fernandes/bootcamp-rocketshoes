@@ -1,6 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
 import './config/ReactotronConfig';
 import GlobalStyle from './styles/global';
@@ -15,6 +16,17 @@ function App() {
                 <GlobalStyle />
                 <Header />
                 <Routes />
+                <ToastContainer
+                    position="bottom-center"
+                    autoClose={3000}
+                    hideProgressBar
+                    newestOnTop
+                    closeOnClick
+                    rtl={false}
+                    pauseOnVisibilityChange
+                    draggable
+                    pauseOnHover
+                />
             </BrowserRouter>
         </Provider>
     );
